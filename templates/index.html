@@ -54,7 +54,7 @@
             {%for post in fresh_posts%}
               <div class="single-recent-blog-post">
                 <div class="thumb">
-                  {% if post.image_url %}}
+                  {% if post.image_url %}
                     <img class="img-fluid" src="{{post.image_url}}" alt="картинка поста">
                   {% else %}
                     <img class="img-fluid" src="{% static '/img/banner/blog.png'%}" alt="картинка поста">
@@ -62,7 +62,7 @@
                   <ul class="thumb-info" style= "max-width: 550px;">
                     <li><a href="#"><i class="ti-user"></i>{{post.author}}</a></li>
                     <li><a href="#"><i class="ti-notepad"></i>{{post.published_at}}</a></li>
-                    <li><a href="#"><i class="ti-themify-favicon"></i>{{post.comments_amount}}</a></li>
+                    <li><a href="#"><i class="ti-themify-favicon"></i>{{post.comments_amount}} Commments</a></li>
                   </ul>
                 </div>
                 <div class="details mt-20">
