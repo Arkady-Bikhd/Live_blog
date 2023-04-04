@@ -14,7 +14,7 @@
           <h1>Blog details</h1>
           <nav aria-label="breadcrumb" class="banner-breadcrumb">
             <ol class="breadcrumb">
-              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item"><a href="{% url 'index' %}">Home</a></li>
               <li class="breadcrumb-item active" aria-current="page">Blog Details</li>
             </ol>
           </nav>
@@ -79,7 +79,7 @@
                 {%endfor%}	
               </div>	                                             				
             </div>
-          </div>
+          
           <!-- Start Blog Post Siddebar -->
           <div class="col-lg-4 sidebar-widgets">
             <div class="widget-wrap">
@@ -99,7 +99,7 @@
             </div>
           </div>
           <!-- End Blog Post Siddebar -->
-        </div>
+       
       </div>
     </div>
   </section>
